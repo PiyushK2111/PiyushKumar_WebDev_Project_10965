@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpeedTyper | Mini Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>Typing Speed Test</h1>
+            <div class="stats-container">
+                <div class="stat-box">Time: <span id="timer">60</span>s</div>
+                <div class="stat-box">WPM: <span id="wpm">0</span></div>
+                <div class="stat-box">Acc: <span id="accuracy">100</span>%</div>
+            </div>
+        </header>
+
+        <div id="quote-display" class="quote-display"></div>
+        <textarea id="quote-input" class="quote-input" autofocus placeholder="Start typing here..."></textarea>
+        
+        <button id="restart-btn">Restart Test</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
